@@ -1,3 +1,65 @@
-#header {
-    flex : 2;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+* {
+    box-sizing : border-box;
+    margin:0;
+    padding:0;
+    background-color: #313338;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    text-decoration: none;
 }
+/*----------------------------------------------------------------*/
+/*Header */
+/*----------------------------------------------------------------*/
+.user_configs, .user_account {
+    max-height:100px;
+}
+.logo{
+    max-height :80px;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+    height :120px;
+}
+header > img {
+    margin-right: auto;
+}
+
+hr{
+    border-top: 3px solid #bbb;
+}
+/*----------------------------------------------------------------*/
+/*Main*/
+/*----------------------------------------------------------------*/
+
+main {
+    display : flex;
+    justify-content: space-between;
+    margin-left : 20%;
+    margin-right : 20%;
+    margin-top : 50px;
+    font-size: 16px;
+}
+
+.main_right > *{
+    padding:10px;
+    border : 2px solid #BBB;
+}
+
+.components > *{
+    padding :10px;
+    border : 2px solid #BBB;
+    text-align: center;
+}
+
+h1{
+    font-size:18px;
+}
+/*----------------------------------------------------------------*/
+/*Footer*/
+/*----------------------------------------------------------------*/
